@@ -5,17 +5,32 @@ body {
     text-align: center;
 }
 
-/* Cabeçalho */
+/* Estilo do Header */
 header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffa500;
+    z-index: 100;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .title {
     font-size: 24px;
     font-weight: bold;
+}
+
+/* Botão Sair - Alinhado no canto superior direito */
+.logout-container {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 101;
 }
 
 .btn-voltar {
@@ -34,7 +49,7 @@ header {
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    margin: 20px 0;
+    margin-top: 220px;
 }
 
 /* Lista de usuários */
@@ -84,4 +99,15 @@ header {
     font-weight: bold;
     text-decoration: none;
     color: black;
+}
+/* Estilo do Footer */
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #ffa500;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1);
 }

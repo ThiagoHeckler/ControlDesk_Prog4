@@ -9,7 +9,9 @@
 <body>
     <header>
         <h1 class="title">ControlDesk</h1>
-        <a href="{{ url_for('dashboard_bp.dashboard') }}" class="btn-voltar">⮌ Voltar</a>
+         <div class="logout-container">
+            <a href="{{ url_for('dashboard_bp.dashboard') }}" class="btn-voltar"><i class="fas fa-sign-out-alt">⮌ Voltar</i></a>
+        </div>
     </header>
 
     <button class="btn-usuario">Usuários</button>
@@ -26,5 +28,8 @@
             <a href="{{ url_for('user_bp.cadastro_usuario_page') }}" class="add-btn">➕ Cadastrar novo Usuário</a>
         </div>
     </div>
+    <footer>
+    <p>&copy; 2025 ControlDesk. Todos os direitos reservados.</p>
+</footer>
 </body>
 </html>
