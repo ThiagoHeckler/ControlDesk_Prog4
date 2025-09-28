@@ -1,0 +1,111 @@
+/* Reset de estilos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    text-align: center;
+}
+
+/* Estilo do Header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffa500;
+    z-index: 100;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Botão Sair - Alinhado no canto superior direito */
+.logout-container {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 101;
+}
+/* Botão Voltar */
+.btn-voltar {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Botão Projetos */
+.btn-projetos {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: default;
+    margin: 20px 0;
+    margin-top: 220px;
+}
+
+/* Lista de Projetos */
+.lista-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Estilo de cada item da lista */
+.projeto-card {
+    background-color: #90ee90;
+    padding: 15px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Botão de edição */
+.edit-btn {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Botão Adicionar Projeto */
+.cadastro {
+    background-color: #c8ffb2;
+    font-weight: bold;
+}
+
+.add-btn {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/* Estilo do Footer */
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #ffa500;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1);
+}

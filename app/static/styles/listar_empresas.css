@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+
+/* Estilo do Header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffa500;
+    z-index: 100;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Botão Sair - Alinhado no canto superior direito */
+.logout-container {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 101;
+}
+.btn-voltar {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-empresas {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 180px;
+}
+
+.lista-empresas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.empresa-card {
+    background-color: #90ee90;
+    padding: 15px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-btn {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.cadastro {
+    background-color: #c0ffc0;
+}
+
+.add-btn {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+/* Estilo do Footer */
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #ffa500;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1);
+}
