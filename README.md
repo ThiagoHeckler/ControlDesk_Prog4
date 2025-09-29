@@ -46,3 +46,6 @@ O objetivo é oferecer uma solução **simples**, **prática** e **segura** para
 
 6. Inicie o servidor
  - flask run
+
+## Video explicativo no youtube das funcionalidades do site
+https://youtu.be/gipLqmxLCcA
